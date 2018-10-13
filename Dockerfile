@@ -1,4 +1,4 @@
-FROM i386/ubuntu:bionic
+FROM ubuntu:LATEST
 
 RUN apt-get update \
  && apt-get -y dist-upgrade \
