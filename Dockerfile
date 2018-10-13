@@ -1,4 +1,4 @@
-FROM amd64/debian:strech
+FROM amd64/debian:stretch
 
 RUN apt-get update \
  && apt-get -y dist-upgrade \
