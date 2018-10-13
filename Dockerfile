@@ -1,4 +1,4 @@
-FROM amd64/ubuntu:bionic
+FROM i386/ubuntu:bionic
 
 RUN apt-get update \
  && apt-get -y dist-upgrade \
