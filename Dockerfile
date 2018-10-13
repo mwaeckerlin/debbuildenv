@@ -1,4 +1,4 @@
-FROM i386/debian:strech
+FROM i386/debian:stretch
 
 RUN apt-get update \
  && apt-get -y dist-upgrade \
