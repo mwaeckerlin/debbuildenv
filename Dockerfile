@@ -1,4 +1,4 @@
-FROM ubuntu:LATEST
+FROM amd64/ubuntu:xenial
 
 RUN apt-get update \
  && apt-get -y dist-upgrade \
