@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM amd64/ubuntu:bionic
 
 RUN apt-get update \
  && apt-get -y dist-upgrade \
