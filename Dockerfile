@@ -1,4 +1,4 @@
-FROM ubuntu:LATEST
+FROM i386/debian:sid
 
 RUN apt-get update \
  && apt-get -y dist-upgrade \
