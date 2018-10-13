@@ -1,4 +1,4 @@
-FROM ubuntu:LATEST
+FROM i386/debian:jessie
 
 RUN apt-get update \
  && apt-get -y dist-upgrade \
