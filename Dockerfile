@@ -11,5 +11,5 @@ RUN apt-get update \
                        qt5-default qt5-qmake qtbase5-dev \
                        qtbase5-dev-tools qttools5-dev \
                        qttools5-dev-tools software-properties-common \
-                       wget binutils libiberty-dev liblog4cxx-dev libboost-dev libz-dev \
+                       wget binutils libiberty-dev liblog4cxx10-dev libboost-dev libz-dev \
  && apt-get autoremove -y --purge
