@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM i386/ubuntu:disco
 
 RUN apt-get update \
  && apt-get -y dist-upgrade \
