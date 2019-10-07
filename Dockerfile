@@ -1,4 +1,4 @@
-FROM i386/ubuntu:eoan
+FROM amd64/ubuntu:eoan
 
 RUN apt-get update \
  && apt-get -y dist-upgrade \
